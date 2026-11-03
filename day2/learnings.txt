@@ -42,3 +42,8 @@ B.QUOTATION DIFFERNECE
 2. if you are using this (( )) for the condtion , no need to quote the variables ,and its   not for the numbers as well 
  
 
+C. WHILE LOOP 
+1.pretty much everything is kind of same , as the if else statements 
+its more of like , until this condition is satisfied , repeat it 
+but you also have to put a counter statement otherwise it will keep running
+and the ending statement of the while statement is : done 
