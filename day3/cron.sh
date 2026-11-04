@@ -3,9 +3,10 @@
 # Terminate the program if any command fails 
 set -e
 
-# --- CONFIGURATION ---
 SOURCE="/mnt/c/Saugat-Tamang-024BSCIT036/BASH_SCRIPTING/day3/source/testing.txt"
+
 DESTINATION="/mnt/c/Saugat-Tamang-024BSCIT036/BASH_SCRIPTING/day3/destination"
+
 LOG_FILE="/mnt/c/Saugat-Tamang-024BSCIT036/BASH_SCRIPTING/day3/copy.log"
 
 # Ensure target directory exists
