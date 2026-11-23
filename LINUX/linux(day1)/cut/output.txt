@@ -13,3 +13,10 @@ id,rep
 103,Charlie
 102,Alice
 105,David
+
+#task3(Character Slicing): Extract only the first 3 characters of every line in departments.txt. (Hint: Look into the -c flag).
+Eng
+Sal
+Mar
+Sup
+Ope
