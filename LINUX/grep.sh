@@ -12,3 +12,6 @@ grep -n "500 Internal Server Error" server.log
 
 #task4 : Search for Connection timeout and include the 1 line immediately after it so you can see what the system did next.
 grep -A 1 "Connection timeout" server.log
+
+#task5 : IP Address Extraction: Using Extended Regular Expressions (-E), find all lines that contain an IP address starting with 10.0.0..
+$ grep -E "10\.0\.0\.[0-9]+" server.log
