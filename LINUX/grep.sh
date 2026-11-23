@@ -8,3 +8,7 @@ grep -Ev "DEBUG|INFO" server.log
 
 #task3: Find the exact line number where the 500 Internal Server Error occurred.
 grep -n "500 Internal Server Error" server.log
+
+
+#task4 : Search for Connection timeout and include the 1 line immediately after it so you can see what the system did next.
+grep -A 1 "Connection timeout" server.log
