@@ -14,3 +14,13 @@ David
 Charlie
 Bob
 Alice
+
+
+
+#Numeric Column Sort: Sort sales.csv numerically by the amount column (column 3) from lowest to highest. (Hint: Combine -t',', -k3, and -n).
+id,region,amount,rep
+103,East,300,Charlie
+104,North,450,Alice
+102,West,850,Alice
+101,South,1200,Bob
+105,North,1200,David
