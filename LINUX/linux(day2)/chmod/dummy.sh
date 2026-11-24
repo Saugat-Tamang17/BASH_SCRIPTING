@@ -1,0 +1,1 @@
+echo -e " \n okay this is the dummy bash file for checking the chmod " 

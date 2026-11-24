@@ -15,3 +15,7 @@ chmod 644 server.log
 stat -c "$a %A %n" server.log
 
 
+#Task 3.3 (Make a Script Executable - Symbolic): Turn file_paths.txt (or a new dummy script run.sh) into an executable file for the owner using u+x with verbose output (-v), then remove execute permission using a-x.
+chmod -v u+x dummy.sh file_paths.txt
+stat -c "%a %A %n" dummy.sh file_paths.txt
+chmod -v a-x dummy.sh file_paths.txt
