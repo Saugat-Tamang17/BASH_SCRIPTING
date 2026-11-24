@@ -19,3 +19,8 @@ stat -c "$a %A %n" server.log
 chmod -v u+x dummy.sh file_paths.txt
 stat -c "%a %A %n" dummy.sh file_paths.txt
 chmod -v a-x dummy.sh file_paths.txt
+
+
+#Task 3.4: Test chmod -R on your current directory (chmod -vR 644 .), see why folders need +x to be browsed, and fix the current directory with chmod 755 ..
+
+chmod -vR 644 
