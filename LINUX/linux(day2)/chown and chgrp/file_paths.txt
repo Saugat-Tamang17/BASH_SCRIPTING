@@ -1,0 +1,4 @@
+/opt/app/bin/start_server.sh
+/etc/nginx/sites-available/default.conf
+/var/www/html/uploads/invoice_2026.pdf
+/home/deploy/scripts/cleanup.py

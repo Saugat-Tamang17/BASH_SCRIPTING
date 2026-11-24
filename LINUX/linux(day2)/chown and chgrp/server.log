@@ -1,0 +1,4 @@
+2026-11-24 08:12:01 INFO /opt/app/bin/start_server.sh started
+2026-11-24 08:15:44 WARN /etc/nginx/sites-available/default.conf deprecated directive
+2026-11-24 08:22:10 ERROR /var/www/html/uploads/invoice_2026.pdf permission denied
+2026-11-24 08:30:05 INFO /home/deploy/scripts/cleanup.py completed
