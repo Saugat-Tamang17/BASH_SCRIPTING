@@ -8,6 +8,10 @@ dirname /var/www/html/uploads/invoice.pdf
  xargs dirname << file_paths.txt
 
 
-#Task 3 (Grandparent Folder): Find the grandparent directory of /etc/nginx/sites-available/default.conf
+#Task 3 (Grandparent Folder): Find the grandparent directory of /etc/nginx/sites-available/default.conf#
 
 dirname "$(dirname /etc/nginx/sites-available/default.conf)"
+
+#Task 4 (Real-World Pipeline): Extract only the file path column from server.log using awk '{print $4}' or cut -d' ' -f4, and pipe it into dirname so you get a clean list of every directory mentioned in the logs. (Hint: xargs is required when piping into dirname).
+
+cut -d ' ' -f4  server.log| xargs dirname
