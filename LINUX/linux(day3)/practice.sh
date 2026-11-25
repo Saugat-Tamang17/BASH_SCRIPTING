@@ -28,3 +28,6 @@ chmod a-rwx paths_manifest.txt
 cat paths_manifest.txt # this should give the error : cat: paths_manifest.txt: Permission denied
 chmod u+rw paths_manifest.txt
 cat paths_manifest.txt #now this should give you the output 
+
+#question 4 : verbose audit of the chmod permission editing 
+chmod -v 750 deploy.sh # ( or you can do g+rx,o-rwx to simulate 750)
