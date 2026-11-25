@@ -31,3 +31,12 @@ cat paths_manifest.txt #now this should give you the output
 
 #question 4 : verbose audit of the chmod permission editing 
 chmod -v 750 deploy.sh # ( or you can do g+rx,o-rwx to simulate 750)
+
+
+#question 5 : use of basename to strip down the file from /home/ubuntu/backups/users_export.csv
+basename -s .csv /home/ubuntu/backups/users_export.csv
+
+#question 5:extract the directory path from /opt/app/releases/v2.4.1/config.yaml
+
+
+
