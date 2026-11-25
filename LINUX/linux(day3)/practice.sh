@@ -43,3 +43,5 @@ dirname /opt/app/releases/v2.4.1/config.yaml
 ls -la "$(dirname /etc/ssh/sshd_config) 
 
 
+#question 8: xargs pipeline for basename and dirname
+cat paths_manifest.txt | xargs -n 1 basename 
