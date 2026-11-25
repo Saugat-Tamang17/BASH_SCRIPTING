@@ -37,6 +37,6 @@ chmod -v 750 deploy.sh # ( or you can do g+rx,o-rwx to simulate 750)
 basename -s .csv /home/ubuntu/backups/users_export.csv
 
 #question 5:extract the directory path from /opt/app/releases/v2.4.1/config.yaml
-
+dirname /opt/app/releases/v2.4.1/config.yaml
 
 
