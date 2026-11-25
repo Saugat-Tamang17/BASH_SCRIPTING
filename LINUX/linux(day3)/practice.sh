@@ -45,3 +45,6 @@ ls -la "$(dirname /etc/ssh/sshd_config)
 
 #question 8: xargs pipeline for basename and dirname
 cat paths_manifest.txt | xargs -n 1 basename 
+
+#question 9: trigger the unprivileged error using the chown command 
+chown root deploy.sh
