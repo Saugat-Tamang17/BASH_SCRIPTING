@@ -16,3 +16,15 @@ chmod u-x ,g-rwx , o-rwx db_credentials.env
 
 #now check the output again , should come out as 600
 stat -c "%a %A %n" db_credentials.env 
+
+#q.3 : simulate the lockout for every kind of user on the certain file ( in the wsl native directory )
+cd ~
+cp "/mnt/c/Saugat-Tamang-024BSCIT036/BASH_SCRIPTING/LINUX/linux(day3)/paths_manifest.txt" ~/
+stat -c "%a %A %n" paths_manifest.txt
+
+#removing every permission from the file , making it unusable for now 
+chmod a-rwx paths_manifest.txt
+
+cat paths_manifest.txt # this should give the error : cat: paths_manifest.txt: Permission denied
+chmod u+rw paths_manifest.txt
+cat paths_manifest.txt #now this should give you the output 
