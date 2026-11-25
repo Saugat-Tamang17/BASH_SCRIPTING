@@ -36,7 +36,10 @@ chmod -v 750 deploy.sh # ( or you can do g+rx,o-rwx to simulate 750)
 #question 5 : use of basename to strip down the file from /home/ubuntu/backups/users_export.csv
 basename -s .csv /home/ubuntu/backups/users_export.csv
 
-#question 5:extract the directory path from /opt/app/releases/v2.4.1/config.yaml
+#question 6:extract the directory path from /opt/app/releases/v2.4.1/config.yaml
 dirname /opt/app/releases/v2.4.1/config.yaml
+
+#question 7:Lists all files and directories inside the directory containing sshd_config.
+ls -la "$(dirname /etc/ssh/sshd_config) 
 
 
